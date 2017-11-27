@@ -232,7 +232,7 @@ public class MyPhoneNumber
 	{
 	      String pattern = "(\\()?(\\d){3}(\\))?[- ](\\d){3}-(\\d){4}";
 		//String pattern = "^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$";
-	      String patternemailString = "^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$";
+	      String patternemailString = "\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*";
 
 	      // Create a Pattern object
 	      Pattern r = Pattern.compile(pattern);
